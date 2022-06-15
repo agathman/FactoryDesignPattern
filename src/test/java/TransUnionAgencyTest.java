@@ -9,9 +9,6 @@ class TransUnionAgencyTest {
 
         Agency agencyProduct = AgencyFactory.getAgency("T", 540);
 
-        //Print Product values
-        System.out.println(agencyProduct);
-
         //Tests if intended product is created
         assertTrue(agencyProduct instanceof TransUnionAgency);
 
