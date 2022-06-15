@@ -6,10 +6,7 @@ class ExperianAgencyTest {
     @Test
     void correctInstanceofExperianProductWithScoreEqualTo640() {
 
-        Agency agencyProduct = AgencyFactory.getAgency("E", 600);
-
-        //Print Product values
-        System.out.println(agencyProduct);
+        Agency agencyProduct = AgencyFactory.getAgency("E", 600)
 
         //Tests if intended product is created
         assertTrue(agencyProduct instanceof ExperianAgency);
