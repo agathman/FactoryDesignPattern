@@ -10,9 +10,6 @@ class VantageAgencyTest {
 
         Agency agencyProduct = AgencyFactory.getAgency("V", 500);
 
-        //Print Product values
-        System.out.println(agencyProduct);
-
         //Tests if intended product is created
         assertTrue(agencyProduct instanceof VantageAgency);
 
